@@ -5,6 +5,6 @@
 | Type     | Name               |
 | -------- | ------------------ |
 | Backend  | C#                 |
-| Frontend | ASP.NET Framework  |
+| Frontend | ASP.NET            |
 | Database | Mysql              |
 | IDE      | Visual Studio 2019 |
