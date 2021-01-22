@@ -1,1 +1,1 @@
-# Online Dental Appointment Booking
+# Dental Appointment Booking
