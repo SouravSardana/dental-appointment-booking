@@ -1,4 +1,4 @@
-# Dental Appointment Booking
+# Online Dental Appointment Booking
 
 ### Technologies used
 
