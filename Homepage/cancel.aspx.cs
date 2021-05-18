@@ -6,10 +6,12 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
 using System.Windows.Forms;
+using System.Configuration;
 
 public partial class Homepage_cancel : System.Web.UI.Page
 {
-    SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\sourav\Downloads\RushBrush1\RushBrush\App_Data\Database.mdf;Integrated Security=True");
+    static string cs = ConfigurationManager.ConnectionStrings["DB"].ConnectionString;
+    SqlConnection con = new SqlConnection(cs);
     SqlDataAdapter da = new SqlDataAdapter();
     protected void Page_Load(object sender, EventArgs e)
     {
